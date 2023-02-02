@@ -1,1 +1,1 @@
-web: gunicorn realtime-speaker.wsgi
+web: gunicorn realtime-speaker:app
